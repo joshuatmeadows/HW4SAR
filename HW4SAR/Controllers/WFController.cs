@@ -5,7 +5,8 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace HW4SAR.Controllers
 {
-    [Route("api/[contoller]")]
+    // typo in work controller
+    [Route("api/[controller]")]
     [ApiController]
     public class WFController : Controller
     {
